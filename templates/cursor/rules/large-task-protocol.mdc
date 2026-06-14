@@ -1,0 +1,10 @@
+---
+description: Phase-based protocol for large coding tasks
+alwaysApply: true
+---
+
+# Large Task Protocol
+
+- For large, ambiguous, cross-module, or "work until complete" tasks, create a durable plan before implementation.
+- Use phases with acceptance criteria, verification checks, cleanliness checks, and final audit.
+- Stop with a clear handoff after repeated failure instead of looping blindly.

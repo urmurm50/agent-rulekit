@@ -1,0 +1,10 @@
+---
+description: UI and UX quality workflow
+alwaysApply: true
+---
+
+# UI/UX Quality
+
+- For UI work, define product type, audience, primary workflow, visual style, color tokens, typography, spacing, component states, and anti-patterns before building.
+- Build responsive, accessible interfaces with clear hierarchy, visible focus states, 44px+ touch targets, loading/error/empty states, and no accidental overlap or horizontal scroll.
+- Verify practical mobile and desktop viewports before reporting complete.

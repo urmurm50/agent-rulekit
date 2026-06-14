@@ -1,0 +1,36 @@
+{
+  "name": "agent-rulekit",
+  "version": "0.1.0",
+  "description": "Reusable project rules for AI coding agents such as Codex, Cursor, and Claude Code.",
+  "type": "module",
+  "bin": {
+    "agent-rulekit": "./bin/agent-rulekit.mjs"
+  },
+  "scripts": {
+    "check": "node --check ./bin/agent-rulekit.mjs",
+    "test": "node ./tests/cli-smoke.mjs",
+    "demo": "node ./bin/agent-rulekit.mjs init --target ./tmp/demo --force"
+  },
+  "keywords": [
+    "codex",
+    "cursor",
+    "claude-code",
+    "agents",
+    "rules",
+    "ai-coding",
+    "developer-tools"
+  ],
+  "author": "urmurm50",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "templates",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

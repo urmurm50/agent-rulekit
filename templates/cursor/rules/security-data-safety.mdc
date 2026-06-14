@@ -1,0 +1,10 @@
+---
+description: Security and data safety checks for code changes
+alwaysApply: true
+---
+
+# Security And Data Safety
+
+- Treat frontend validation as UX only; enforce permissions, ownership, prices, balances, quotas, workflow state, and input validation server-side.
+- Do not expose secrets in logs, client bundles, screenshots, fixtures, or documentation.
+- For auth, payments, uploads, database, deployment, or CI changes, perform a secure-by-default review before finishing.

@@ -1,0 +1,12 @@
+---
+description: Safe implementation workflow for coding tasks
+alwaysApply: true
+---
+
+# Implementation Workflow
+
+- Inspect the existing codebase before editing.
+- Keep changes scoped to the requested behavior and local project conventions.
+- Prefer existing helpers, patterns, and test tools over new abstractions.
+- For behavior changes, add or update focused tests when a practical test setup exists.
+- Never revert user changes unless the user explicitly asks.
